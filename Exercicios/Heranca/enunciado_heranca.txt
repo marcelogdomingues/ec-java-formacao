@@ -1,0 +1,16 @@
+Exercício de Herança em Java
+
+No código fornecido, você tem uma classe pai chamada "Animal" com um construtor que recebe um nome e um método "emitirSom" que imprime uma mensagem genérica. Além disso, existe uma classe filha chamada "Cachorro" que estende a classe "Animal" e substitui o método "emitirSom" para imprimir uma mensagem específica para cachorros.
+
+Sua tarefa é estender a funcionalidade do código para incluir uma nova classe filha chamada "Gato". A classe "Gato" deve estender a classe "Animal" e substituir o método "emitirSom" para imprimir uma mensagem específica para gatos, por exemplo: "Gato mia: Miau Miau!".
+
+Além disso, no método main, crie um objeto da classe "Gato" e chame o método "emitirSom" para demonstrar a herança em ação, ao lado do objeto da classe "Cachorro" que já está no código.
+
+Requisitos:
+
+Crie uma nova classe filha chamada "Gato" que estenda a classe "Animal".
+Na classe "Gato", substitua o método "emitirSom" para imprimir uma mensagem específica para gatos.
+No método main, crie um objeto da classe "Gato" e chame o método "emitirSom" para demonstrar a herança.
+Teste seu código para garantir que ele funcione corretamente e que os objetos das classes "Cachorro" e "Gato" produzam mensagens diferentes quando o método "emitirSom" é chamado.
+
+Dica: Siga o padrão já estabelecido na classe "Cachorro" ao criar a classe "Gato" para garantir a consistência na implementação da herança.
