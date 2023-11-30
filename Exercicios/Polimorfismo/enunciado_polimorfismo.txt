@@ -1,0 +1,17 @@
+Exercício de Polimorfismo em Java
+
+No código fornecido, você tem uma hierarquia de classes com uma classe pai "Animal" e duas classes filhas, "Cachorro" e "Gato". As classes filhas "Cachorro" e "Gato" substituem o método "emitirSom" para imprimir mensagens específicas para cachorros e gatos, respectivamente.
+
+Sua tarefa é estender a funcionalidade do código para incluir uma nova classe filha chamada "Pássaro". A classe "Pássaro" deve estender a classe "Animal" e substituir o método "emitirSom" para imprimir uma mensagem específica para pássaros, por exemplo: "Pássaro canta: Piu Piu!".
+
+Além disso, no método main, adicione um objeto da classe "Pássaro" ao array "animais" e depois percorra o array chamando o método "emitirSom" para demonstrar o polimorfismo em ação.
+
+Requisitos:
+
+Crie uma nova classe filha chamada "Pássaro" que estenda a classe "Animal".
+Na classe "Pássaro", substitua o método "emitirSom" para imprimir uma mensagem específica para pássaros.
+No método main, adicione um objeto da classe "Pássaro" ao array "animais".
+Em seguida, percorra o array "animais" e chame o método "emitirSom" para demonstrar o polimorfismo.
+Teste seu código para garantir que ele funcione corretamente e que os objetos das classes "Cachorro", "Gato" e "Pássaro" produzam mensagens diferentes quando o método "emitirSom" é chamado.
+
+Dica: Siga o padrão já estabelecido nas classes "Cachorro" e "Gato" ao criar a classe "Pássaro" para garantir a consistência na implementação do polimorfismo.
